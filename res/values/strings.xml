@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">MensaCard Guthaben Scanner</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MensaCard Guthaben Scanner</string>
+    
+    
+    <!-- For debugging only -->
+    	<string name="textview_test">Scan MensaCard</string>
+    
+    <!-- TextViews -->
+		<string name="textview_guthaben"></string>
+		<string name="namens_feld">"Johannes Rother \n Frank Lange \n 2012"</string>
+
+	<!-- Images -->
+	<string name="hu_logo"></string>
+	<string name="logo">Logo</string>
+	
+	<!-- Strings -->
+		<string name="err_msg">"Error occured!\nTry something else."</string>
+		<string name="err_ok">OK</string>
+				
+</resources>

@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textview_guthaben"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/textview_test"
+        android:textSize="60dp"
+        tools:context=".MainActivity" />
+
+    <ImageView
+        android:id="@+id/hu_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="39dp"
+        android:layout_marginTop="33dp"
+        android:src="@raw/hu_logo" />
+
+    <TextView
+        android:id="@+id/namens_feld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/hu_logo"
+        android:layout_marginBottom="40dp"
+        android:lines="3"
+        android:text="@string/namens_feld" />
+
+</RelativeLayout>
